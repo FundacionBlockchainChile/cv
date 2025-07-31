@@ -1,4 +1,4 @@
-# 👨‍💻 Sergio Castro Faune – DevOps Engineer | Fullstack Developer
+# 👨‍💻 Sergio Castro Faune – Fullstack Developer & DevOps Engineer
 
 📍 Chile | 📧 sergio.castro@email.com | 🔗 [LinkedIn](https://linkedin.com/in/sergiocastrofaune) | 🐙 [GitHub](https://github.com/FundacionBlockchainChile)
 
@@ -6,7 +6,7 @@
 
 ## 💼 Perfil Profesional
 
-Ingeniero en Computación e Informática con experiencia como desarrollador Fullstack y especialización práctica en DevOps. Apasionado por la automatización, escalabilidad y mejora continua. Me he capacitado en prácticas modernas de CI/CD, infraestructura como código, monitoreo, contenedores y despliegue en la nube usando herramientas líderes del sector como AWS, Docker, Kubernetes, Terraform, Jenkins y Prometheus. Busco oportunidades para construir sistemas resilientes, observables y eficientes.
+Desarrollador de Software con más de 4 años de experiencia como desarrollador Fullstack, especializado en la creación de aplicaciones escalables, seguras y modernas con stacks como **Next.js**, **Ruby on Rails**, **Node.js** y **React**. Además, cuento con una formación sólida en prácticas DevOps, incluyendo automatización de infraestructura (Terraform), CI/CD, contenedores y monitoreo. Mi enfoque combina desarrollo ágil, despliegue automatizado y observabilidad continua en entornos reales de producción.
 
 ---
 
@@ -16,59 +16,107 @@ Ingeniero en Computación e Informática con experiencia como desarrollador Full
 
 - 📦 [`complete-aws-app-pipeline`](https://github.com/FundacionBlockchainChile/complete-aws-app-pipeline): Pipeline completo con GitHub Actions, Terraform, AWS ECS Fargate y RDS.
 - 🛠 [`aws-CI-CD-exercise`](https://github.com/FundacionBlockchainChile/aws-CI-CD-exercise): Ejercicio práctico CI/CD con AWS CLI, CodePipeline y Docker.
-- 🧱 [`app-vpc`](https://github.com/FundacionBlockchainChile/app-vpc): Definición de infraestructura modular con Terraform (VPC, Subnets, SG).
+- 🧱 [`app-vpc`](https://github.com/FundacionBlockchainChile/app-vpc): Infraestructura modular con Terraform (VPC, Subnets, Security Groups).
 - 🐳 [`container-registry`](https://github.com/FundacionBlockchainChile/container-registry): Registro privado de imágenes Docker en AWS ECR con GitHub Actions.
 
 ### 🔍 Monitoreo y Observabilidad
 
-- 📊 [`final_test_deployment_and_continous_monitoring`](https://github.com/FundacionBlockchainChile/final_test_deployment_and_continous_monitoring): Proyecto final con monitoreo distribuido (Prometheus, Grafana, ELK).
-- 📈 [`CloudWatch`](https://github.com/FundacionBlockchainChile/CloudWatch): Configuración y exploración de métricas en AWS CloudWatch.
-- 📦 [`elk_stack`](https://github.com/FundacionBlockchainChile/elk_stack): Stack ELK configurado localmente para logs de microservicios.
+- 📊 [`final_test_deployment_and_continous_monitoring`](https://github.com/FundacionBlockchainChile/final_test_deployment_and_continous_monitoring): Monitoreo de microservicios con Prometheus, Grafana y ELK.
+- 📈 [`CloudWatch`](https://github.com/FundacionBlockchainChile/CloudWatch): Configuración y visualización de métricas para servicios desplegados en AWS.
+- 📦 [`elk_stack`](https://github.com/FundacionBlockchainChile/elk_stack): Configuración de Filebeat, Logstash y Kibana para centralización de logs.
 
 ### 🤖 ChatOps y Automatización de Alertas
 
-- 💬 [`ChatOps`](https://github.com/FundacionBlockchainChile/ChatOps): Automatización de despliegues y alertas críticas vía Slack + Hubot.
+- 💬 [`ChatOps`](https://github.com/FundacionBlockchainChile/ChatOps): Automatización de alertas y ejecución de comandos desde Slack mediante Hubot y Webhooks.
 
 ### ✅ Testing y Calidad
 
-- 🔬 [`functional-testing`](https://github.com/FundacionBlockchainChile/functional-testing): Pruebas funcionales automatizadas en pipelines.
-- 🔥 [`apache-jmeter-performance-test`](https://github.com/FundacionBlockchainChile/apache-jmeter-performance-test): Pruebas de carga con JMeter.
-- 🧪 [`soapui-api-test`](https://github.com/FundacionBlockchainChile/soapui-api-test): Validación y pruebas automáticas de APIs con SoapUI.
-- 🧬 [`final-test-automated-test-module`](https://github.com/FundacionBlockchainChile/final-test-automated-test-module): Integración de pruebas automatizadas en pipelines CI.
+- 🔬 [`functional-testing`](https://github.com/FundacionBlockchainChile/functional-testing): Pruebas funcionales automatizadas integradas en pipeline.
+- 🔥 [`apache-jmeter-performance-test`](https://github.com/FundacionBlockchainChile/apache-jmeter-performance-test): Pruebas de estrés y rendimiento.
+- 🧪 [`soapui-api-test`](https://github.com/FundacionBlockchainChile/soapui-api-test): Testing automatizado de servicios SOAP.
+- 🧬 [`final-test-automated-test-module`](https://github.com/FundacionBlockchainChile/final-test-automated-test-module): Integración de pruebas automatizadas en pipeline CI.
+
+---
+
+## 💻 Proyectos Fullstack Destacados
+
+### 🏙️ SecplaDigital (Gobierno Local)
+
+- Sistema de gestión municipal para catastro de infraestructura y planificación territorial.
+- Arquitectura basada en **Node.js + Express + React**, deploy automatizado con Docker + GitHub Actions.
+- Autenticación JWT, base de datos PostgreSQL, despliegue en nube.
+- Stack: React, Node.js, PostgreSQL, Docker, CI/CD, AWS.
+
+### 💰 Grey (Plataforma financiera para Grey Capitals)
+
+- Plataforma web para gestión de activos financieros y evaluación de riesgo.
+- Desarrollada en **Next.js** (frontend SSR) y **Ruby on Rails** (API backend).
+- Integración con APIs externas (datos bursátiles, clima económico) y dashboards financieros.
+- Stack: Next.js, Rails, Redis, MongoDB, GraphQL, Docker, GitHub Actions, AWS.
 
 ---
 
 ## 🧠 Tecnologías
 
-**DevOps & CI/CD:** GitHub Actions, Jenkins, SonarQube, Trivy, OWASP ZAP  
-**Contenedores:** Docker, Docker Compose, Kubernetes (manifests, clusters, services)  
-**Cloud:** AWS (EC2, ECR, ECS Fargate, RDS, S3, Route53, CloudWatch)  
-**IaC:** Terraform (modular, variables, state), Ansible  
-**Scripting:** Bash, Python (scripts administrativos y de automatización)  
-**Monitoreo:** Prometheus, Grafana, ELK (Logstash, Elasticsearch, Kibana), Alertmanager  
-**Testing:** JMeter, SoapUI, OWASP Dependency Check  
-**Versionamiento:** Git, GitHub  
-**Otros:** Slack, Hubot, Mermaid, Draw.io
+**Frontend:** React, Next.js, React Native, Flutter, Ionic  
+**Backend:** Ruby on Rails, Node.js, Django, GraphQL, REST  
+**DevOps:** GitHub Actions, Jenkins, Docker, Kubernetes, Terraform, Ansible  
+**Cloud:** AWS (ECS, ECR, EC2, RDS, S3, CloudWatch), GCP  
+**Observabilidad:** Prometheus, Grafana, ELK Stack, Alertmanager  
+**Testing:** JMeter, SoapUI, Postman, Cypress, SonarQube, Trivy  
+**DBs:** PostgreSQL, MySQL, MongoDB, Redis  
+**Otros:** Git, Bash, Python, JWT, OAuth2
 
 ---
 
-## 🎓 Formación
+## 🎓 Formación Técnica y Certificaciones
 
-- **Ingeniería en Computación e Informática** – Universidad [Nombre], Chile  
-- **DevOps Beginners to Advanced with Projects** – Udemy, Imran Teli  
-- Cursos avanzados de AWS, Jenkins, Terraform, Docker y Kubernetes  
+### 🧑‍🏫 Certificaciones y Cursos Especializados
+
+- **DevOps Beginners to Advanced with Projects** – Udemy, Imran Teli *(En curso)*
+- **Plataforma Kubernetes con CI/CD, ELK y Monitoreo** – Curso práctico de integración
+- **Terraform, Docker, GitHub Actions, Jenkins, SonarQube, Trivy, Prometheus, ChatOps (Slack/Hubot)**
+
+### 📜 Capacitación Técnica Certificada – SENCE Chile
+
+1. **Desarrollo de Aplicaciones Móviles Android Trainee V2.0**  
+   📍 Adalid Capacitaciones – 475 hrs | Asistencia: 99.15%  
+   🗓️ Ago – Oct 2024  
+   🛠 Kotlin, Android Studio, Firebase, UI/UX
+
+2. **Desarrollo de Aplicaciones Full Stack Python Trainee V2.0**  
+   📍 Linares y Moreria – 380 hrs | Asistencia: 82.34%  
+   🗓️ Dic 2021 – May 2022  
+   🛠 Python, Flask, HTML, CSS, PostgreSQL
+
+3. **Emprendimiento Digital con Tecnologías Web**  
+   📍 Linares y Compañía – 450 hrs | Asistencia: 100%  
+   🗓️ Jun – Nov 2021  
+   🛠 HTML, CSS, JS, Git, Web Apps, Bootstrap
 
 ---
 
-## 📌 Intereses
+## 🤝 Habilidades
 
-- Automatización de flujos CI/CD  
-- Seguridad en pipelines (DevSecOps)  
-- Observabilidad y respuesta a incidentes  
-- Desarrollo de herramientas internas (CLI, Scripts, Bots)  
-- Portafolios y contribuciones open source
+- Comunicación técnica y documentación clara  
+- Trabajo colaborativo y liderazgo técnico en proyectos  
+- Resolución autónoma de problemas complejos  
+- Mentalidad DevOps: integración y entrega continua, automatización, resiliencia
 
 ---
 
-_¡Gracias por visitar mi perfil!_ 🚀  
-_Puedes contactarme para colaboraciones, feedback técnico o nuevas oportunidades._
+## 🌐 Idiomas
+
+- Español: Nativo  
+- Inglés: Intermedio (B1+ técnico)
+
+---
+
+## 📌 Enlaces
+
+- 🔗 GitHub: [Fundación Blockchain Chile](https://github.com/FundacionBlockchainChile)  
+- 🔗 LinkedIn: [linkedin.com/in/sergiocastrofaune](https://linkedin.com/in/sergiocastrofaune)
+
+---
+
+_Gracias por visitar mi perfil. Estoy abierto a nuevas oportunidades, colaboraciones y desafíos técnicos._
